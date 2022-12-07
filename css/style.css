@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+}
+.container #left-section {
+  width: 20%;
+  background-color: rgb(34, 35, 51);
+  height: 100%;
+}
+.container #right-section {
+  width: 80%;
+  background-color: rgb(26, 27, 43);
+  height: 100%;
+}
+.container #right-section header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 1em 1em;
+  align-items: center;
+}
+.container #right-section header h3 {
+  background-image: linear-gradient(90deg, rgb(106, 54, 204), rgb(223, 55, 190));
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+.container #right-section header input {
+  margin: auto;
+}
+.container #right-section header span {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 0.5em;
+}
+.container #right-section #main {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+.container #right-section #main #graphs {
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+}
+.container #right-section #main #graphs #box1,
+.container #right-section #main #graphs #box2,
+.container #right-section #main #graphs #box3 {
+  height: 33%;
+  background-color: blueviolet;
+  margin: 1em;
+}
+.container #right-section #main #feedback {
+  width: 30%;
+  height: 100%;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
